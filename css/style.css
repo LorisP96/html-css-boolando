@@ -24,6 +24,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 3;
 }
 
 nav {
@@ -33,7 +34,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo {
     text-align: center;
+}
+
+.account {
+    text-align: right;
 }
 
 .categories , .account {
@@ -46,4 +54,66 @@ nav {
 
 nav span, i {
     padding: 0 5px;
+}
+
+/* MAIN */
+main > div {
+    width: 75%;
+    margin: 100px auto 30px;
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* articoli */
+.box {
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.pics {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.pics:hover .front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.pics:hover .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+/* descrizione articolo */
+h2 {
+    font-size: 20px;
+}
+
+.price1 {
+    color: red;
+}
+
+.price2 {
+    text-decoration: line-through;
 }
