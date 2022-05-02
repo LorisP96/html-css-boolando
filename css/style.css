@@ -24,7 +24,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 3;
+    z-index: 4;
 }
 
 nav {
@@ -91,6 +91,18 @@ main > div {
 
 .pics:hover .back {
     display: block;
+}
+
+/* heart */
+.heart {
+    font-size: 40px;
+    background-color: white;
+    padding: 5px 15px;
+    position: absolute;
+    top: 10%;
+    left: 93%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
 }
 
 /* sales */
