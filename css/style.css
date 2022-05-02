@@ -43,3 +43,7 @@ nav {
 .logo img {
     width: 20%;
 }
+
+nav span, i {
+    padding: 0 5px;
+}
