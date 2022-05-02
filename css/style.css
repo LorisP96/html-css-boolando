@@ -24,7 +24,6 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 3;
 }
 
 nav {
@@ -72,17 +71,11 @@ main > div {
 }
 
 .back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
+    display: none;
 }
 
 .front {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
+    display: block;
 }
 
 .pics {
@@ -92,22 +85,24 @@ main > div {
 }
 
 .pics:hover .front {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
+    display: none;
 }
 
 .pics:hover .back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
+    display: block;
 }
 
 /* descrizione articolo */
 h2 {
-    font-size: 20px;
+    font-size: 15px;
+}
+
+.description > span {
+    font-size: 12px;
+}
+
+.brand {
+    color: ;
 }
 
 .price1 {
