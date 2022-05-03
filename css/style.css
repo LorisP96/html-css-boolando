@@ -115,6 +115,10 @@ main > div {
     z-index: 3;
 }
 
+.heart:hover {
+    color: red;
+}
+
 /* sales */
 .sales-container {
     position: absolute;
