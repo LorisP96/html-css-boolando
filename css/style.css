@@ -15,6 +15,17 @@ body {
     margin-top: 80px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
 /* HEADER */
 header {
     background-color: #ff6900;
@@ -163,4 +174,3 @@ footer {
     padding-left: 0;
     padding-right: 10px;
 }
-
